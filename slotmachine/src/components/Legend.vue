@@ -95,9 +95,12 @@
         >
       </div>
     </div>
-    <div
-      class="Legend-tip"
-    >Add coins to add credit. Press space to Play. Click reel or press 1, 2 or 3 to lock. Brought to you by Lukas Koserwhich yarn</div>
+    <div class="Legend-tip">
+      Add coins to add credit.<br>
+      Press space to Play.<br>
+      Click reel or press 1, 2 or 3 to lock.<br>
+      Brought to you by Lukas Koser.
+    </div>
   </div>
 </template>
 
@@ -133,6 +136,7 @@ export default {
 .Legend-tip {
   margin-top: 8px;
   margin-left: 16px;
+  margin-bottom: 16px;
   font-size: 10px;
   color: rgb(150, 150, 150);
 }
