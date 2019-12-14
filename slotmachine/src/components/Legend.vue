@@ -112,6 +112,7 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 16px;
+  margin-left: 16px;
 }
 .Legend-item {
   width: 100%;
@@ -131,6 +132,7 @@ export default {
 
 .Legend-tip {
   margin-top: 8px;
+  margin-left: 16px;
   font-size: 10px;
   color: rgb(150, 150, 150);
 }

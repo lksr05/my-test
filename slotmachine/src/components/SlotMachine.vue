@@ -166,10 +166,12 @@ export default {
 .SlotMachine {
   border-radius: 5px;
   width: 270px;
+  background-color: rgb(30,30,30,0.8);
 }
 .SlotMachine-reels {
   display: flex;
   position: relative;
+  background-color: white;
 }
 .SlotMachine-shadow {
   pointer-events: none;
