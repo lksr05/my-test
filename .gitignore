@@ -1,6 +1,9 @@
 # IDE
 .idea
 
+# nodejs
+node_modules
+
 # Project exclude paths
 /out/
 
