@@ -15,12 +15,14 @@ public class Main {
         System.out.println("Wo schneidet die 2. Gerade die y-Achse? ");
         double sy2 = sc.nextDouble();
         Gerade g2 = new Gerade(a2, sy2);
+        sc.close();
         try {
             Punkt p = g1.schnittpunkt(g2);
             System.out.println("Der Schnittunkt liegt bei: " + p);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        
     }
 
     public static void main2(String[] args) {
