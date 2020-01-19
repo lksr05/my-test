@@ -1,5 +1,6 @@
 # IDE
 .idea
+*.bluej
 
 # nodejs
 node_modules
