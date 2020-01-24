@@ -5,6 +5,32 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Erste Zahl?");
+        double v1 = sc.nextDouble();
+        System.out.println("Zweite Zahl?");
+        double v2 = sc.nextDouble();
+        Addition r1 = new Addition(v1, v2); 
+        System.out.println("Ergebnis:"+r1.getresult());
+        sc.close();
+    }
+
+    public static void main2(String[] args) {
+        String s = "a";
+        Kugel k1 = new Kugel(1);
+        Kugel k2 = new Kugel(1);
+        Zahl z = new Zahl(2);
+        System.out.println("zahl: " + z.getWert());
+        z.add(3);
+        z.add(5);
+        System.out.println("zahl: " + z.getWert());
+        System.out.println("K1: " + k1.rauminhalt());
+        System.out.println("K2: " + k2.rauminhalt());
+        System.out.println("k2 ist Kugel: " + Kugel.isKugel(k2));
+        System.out.println("k1 = k2: " + k1.equals(k2));
+        System.out.println("2+4: " + z.getWert());
+    }
+   public static void main3(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Welche Steigung hat die Gerade? ");
         double a = sc.nextDouble();
         System.out.println("Wo schneidet die Gerade die y-Achse? ");
@@ -23,21 +49,5 @@ public class Main {
             System.out.println(e.getMessage());
         }
         
-    }
-
-    public static void main2(String[] args) {
-        String s = "a";
-        Kugel k1 = new Kugel(1);
-        Kugel k2 = new Kugel(1);
-        Zahl z = new Zahl(2);
-        System.out.println("zahl: " + z.getWert());
-        z.add(3);
-        z.add(5);
-        System.out.println("zahl: " + z.getWert());
-        System.out.println("K1: " + k1.rauminhalt());
-        System.out.println("K2: " + k2.rauminhalt());
-        System.out.println("k2 ist Kugel: " + Kugel.isKugel(k2));
-        System.out.println("k1 = k2: " + k1.equals(k2));
-        System.out.println("2+4: " + z.getWert());
     }
 }

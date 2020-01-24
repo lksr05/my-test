@@ -3,6 +3,13 @@
   "configurations": [
    {
       "type": "java",
+      "name": "CodeLens (Launch) - Kaffemaschine",
+      "request": "launch",
+      "mainClass": "com.lksr.Kaffemaschine",
+      "projectName": "my-test_1d924c4a"
+   },
+   {
+      "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
       "mainClass": "com.lksr.Main",
