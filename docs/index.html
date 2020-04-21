@@ -15,6 +15,7 @@
         <td><button id="b1" onclick="add(1)">1</button> </td>
         <td> <button id="b2" onclick="add(2)">2</button></td>
         <td><button id="b3" onclick="add(3)">3</button> </td>
+        <td> <button rowspan = "2" id="bequals" onclick="calc()">=</button></td>
       </tr>
       <tr>
         <td><button id="b4" onclick="add(4)">4</button> </td>
@@ -25,12 +26,11 @@
         <td> <button id="b7" onclick="add(7)">7</button></td>
         <td> <button id="b8" onclick="add(8)">8</button></td>
         <td> <button id="b9" onclick="add(9)">9</button></td>
+        <td> <button rowspan= "2" id="bclear" onclick="xclear()">C</button></td>
       </tr>
       <tr>
-        <td> <button id="b0" onclick="add(0)">0</button></td>
+        <td> <button colspan= "2" id="b0" onclick="add(0)">0</button></td>
         <td> <button id="b." onclick="add('.')">.</button></td>
-        <td> <button id="bequals" onclick="calc()">=</button></td>
-        <td> <button id="bclear" onclick="xclear()">C</button></td>
       <tr>
         <td><button id="b*" onclick="add('*')">*</button> </td>
         <td> <button id="b/" onclick="add('/')">/</button></td>
