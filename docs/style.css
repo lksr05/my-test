@@ -50,8 +50,13 @@ button:hover {
 }
 
 
+#b0 {
+  width: 150px;
+}
+
 #bclear{
   background-color: rgba(236, 98, 98, 0.514);  
+  height: 180px;
 }
 
 #bclear:hover{
@@ -67,38 +72,6 @@ button:hover {
 
 #bequals{
   background-color: rgb(69, 214, 93, 0.514);  
+  height: 180px;
 
-}
-
-.collapsible {
-  position: inherit;
-  height: 30px;
-  width: 250px;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(206, 239, 241, 0.514);
-  transition-duration: 0.2s;
-  border: 2px solid rgba(0, 0, 0, 0.452);
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.collapsible:hover {
-  background-color: #ccc;
- 
-}
-
-#output{
-  background-color: rgba(240, 248, 255, 0.63);
-}
-
-
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f100;
 }
