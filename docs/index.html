@@ -1,25 +1,47 @@
-<!doctype html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset=utf-8>
-  <meta http-equiv=X-UA-Compatible content="IE=edge">
-  <meta name=viewport content="width=device-width,initial-scale=1">
-  <title>Slot Machine</title>
-  <meta name="description" content="Slot Machine">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Pacifico:300,400,600,700&amp;lang=en" />
-  <link rel="stylesheet" href="/css/main.css">
-  <link href=/css/app.92c18b56.css rel=preload as=style>
-  <link href=/js/app.d3d71037.js rel=preload as=script>
-  <link href=/js/chunk-vendors.86f36ec5.js rel=preload as=script>
-  <link href=/css/app.92c18b56.css rel=stylesheet>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <noscript>
-    <strong>We're sorry but codesandbox doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-  </noscript>
-  <div id=app></div>
-  <script src=/js/chunk-vendors.86f36ec5.js></script>
-  <script src=/js/app.d3d71037.js></script>
+  <script src="calc.js"> </script>
+  <div>
+    <form>
+      <textarea id="inputField"> </textarea>
+    </form>
+    <table>
+      <tr>
+        <td><button id="b1" onclick="add(1)">1</button> </td>
+        <td> <button id="b2" onclick="add(2)">2</button></td>
+        <td><button id="b3" onclick="add(3)">3</button> </td>
+        <td><button id="b+" onclick="add('+')">+</button> </td>
+      </tr>
+      <tr>
+        <td><button id="b4" onclick="add(4)">4</button> </td>
+        <td> <button id="b5" onclick="add(5)">5</button></td>
+        <td><button id="b6" onclick="add(6)">6</button> </td>
+        <td> <button id="b-" onclick="add('-')">-</button></td>
+      </tr>
+      <tr>
+        <td> <button id="b7" onclick="add(7)">7</button></td>
+        <td> <button id="b8" onclick="add(8)">8</button></td>
+        <td> <button id="b9" onclick="add(9)">9</button></td>
+        <td><button id="b*" onclick="add('*')">*</button> </td>
+      </tr>
+      <tr>
+        <td> <button id="b0" onclick="add(0)">0</button></td>
+        <td> <button id="bequals" onclick="calc()">=</button></td>
+        <td> <button id="bclear" onclick="xclear()">C</button></td>
+        <td> <button id="b/" onclick="add('/')">/</button></td>
+      <tr>
+        <td> <button onclick="callHistory()"> </button> </td>
+        <td> <button id="b." onclick="add('.')">.</button></td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </table>
+  </div>
 </body>
+
 </html>

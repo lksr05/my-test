@@ -1,0 +1,104 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+body {
+  background-image: url(https://i.redd.it/lv4zb2oavgd01.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  width: 305px;
+  background-color: rgba(245, 245, 245, 0.822);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.466);
+  text-align: center;
+
+}
+
+button {
+  height: 90px;
+  width: 75px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(206, 239, 241, 0.514);
+  transition-duration: 0.2s;
+  border: 2px solid rgba(0, 0, 0, 0.452);
+}
+
+button:active {
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+  transform: translateY(5px);
+}
+
+button:hover {
+  background-color: rgb(205, 240, 241);
+  
+}
+
+.main {
+  padding-top: 200px;
+}
+
+
+#bclear{
+  background-color: rgba(236, 98, 98, 0.514);  
+}
+
+#bclear:hover{
+  background-color: rgb(236, 98, 98);  
+
+}
+
+
+#bequals:hover{
+  background-color: rgb(69, 214, 93);  
+
+}
+
+#bequals{
+  background-color: rgb(69, 214, 93, 0.514);  
+
+}
+
+.collapsible {
+  position: inherit;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(206, 239, 241, 0.514);
+  transition-duration: 0.2s;
+  border: 2px solid rgba(0, 0, 0, 0.452);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:hover {
+  background-color: #ccc;
+ 
+}
+
+#output{
+  background-color: rgba(240, 248, 255, 0.63);
+}
+
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f100;
+}

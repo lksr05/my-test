@@ -1,0 +1,33 @@
+{
+  "name": "my-calc",
+  "version": "1.0.0",
+  "description": "My Calculator",
+  "main": "index.html",
+  "author": "lukas.koser@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "npx serve"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "standard"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
