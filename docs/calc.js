@@ -6,7 +6,6 @@ var op
 var result
 var input
 var buttonValue
-var history = ['', '']
 var calculation
 
 function getNums () {
@@ -60,15 +59,5 @@ function add (buttonValue) {
 }
 
 function xclear () {
-  addHistory()
   document.getElementById('inputField').innerHTML = ''
-}
-
-function addHistory () {
-  getCalculation()
-  history.push(calculation)
-}
-
-function callHistory () {
-  console.log(history[1])
 }
